@@ -74,7 +74,7 @@
     <h1>Chào mừng đến với trang web Tết cổ truyền</h1>
 
     <!-- Hình ảnh ngày Tết -->
-    <img src="https://example.com/hinh-anh-tet.jpg" alt="Hình ảnh Tết cổ truyền">
+    <img src="tet2025.jpg" alt="Hình ảnh Tết cổ truyền">
 
     <!-- Nội dung -->
     <p>Đây là nội dung giới thiệu về ngày Tết cổ truyền của Việt Nam. Tết là dịp để mọi người sum họp, quây quần bên nhau.</p>
