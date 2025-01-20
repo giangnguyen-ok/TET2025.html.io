@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
         h1 {
             display: none;
             }
-        /* Định dạng toàn bộ trang */
+        /* Toàn bộ trang */
         body {
             font-family: 'Arial', sans-serif;
             background: linear-gradient(120deg, #ffecd2, #fcb69f);
@@ -17,6 +17,54 @@
             margin: 0;
             padding: 0;
             overflow-x: hidden;
+        }
+
+        /* Định dạng đoạn văn mặc định */
+        p {
+            position: relative;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            font-size: 1.2rem;
+        }
+
+        /* Định dạng cho P1 */
+        .p1 {
+            background-color: #ffe5e5; /* Nền hồng nhạt */
+            color: #c0392b; /* Chữ đỏ đậm */
+            border-left: 5px solid #c0392b; /* Viền trái đậm */
+            border-right: 3px dashed #e74c3c; /* Viền phải nét đứt */
+            border-top: 2px solid #e57373; /* Viền trên mỏng */
+            border-bottom: 4px double #d63031; /* Viền dưới nét đôi */
+        }
+
+        /* Định dạng cho P2 và P3 */
+        .p2, .p3 {
+            background-color: #e5f7ff; /* Nền xanh nhạt */
+            color: #2980b9; /* Chữ xanh đậm */
+            border: 3px solid #3498db; /* Viền đều 4 cạnh */
+        }
+
+        /* Hình ảnh bên trái */
+        .image-left {
+            float: left;
+            width: 100px;
+            height: 100px;
+            margin-right: 15px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        /* Hình ảnh bên phải */
+        .image-right {
+            float: right;
+            width: 100px;
+            height: 100px;
+            margin-left: 15px;
+            border-radius: 10px;
+            object-fit: cover;
         }
 
         /* Thanh tiêu đề chạy ngang */
@@ -58,115 +106,43 @@
             }
         }
 
-        /* Container của nội dung */
-        .content {
-            max-width: 900px;
-            margin: 50px auto;
-            text-align: center;
-        }
-
-        /* Tiêu đề chính */
-        h1 {
-            font-size: 3rem;
-            font-family: 'Dancing Script', cursive;
-            color: #c0392b;
-            margin-bottom: 20px;
-        }
-
-        /* Định dạng các đoạn văn */
-        p {
-            position: relative;
-            padding: 20px;
-            border: 1px solid #ddd;
-            margin-bottom: 20px;
-            background-color: #fff;
-            font-size: 1.2rem;
-        }
-        
-/* Màu sắc cho P1 */
-        .p1 {
-            background-color: #ffe5e5; /* Nền hồng nhạt */
-            color: #c0392b; /* Chữ đỏ đậm */
-        }
-        
-        /* Màu sắc cho P2 */
-        .p2 {
-            background-color: #e5f7ff; /* Nền xanh nhạt */
-            color: #2980b9; /* Chữ xanh đậm */
-        }
-
-        /* Màu sắc cho P3 */
-        .p3 {
-            background-color: #e5ffe5; /* Nền xanh lá nhạt */
-            color: #27ae60; /* Chữ xanh lá đậm */
-        
-        /* Hình ảnh bên trái */
-        .image-left {
-            float: left;
-            width: 100px;
-            height: 100px;
-            margin-right: 15px;
-            border-radius: 10px;
-            object-fit: cover;
-        }
-
-        /* Hình ảnh bên phải */
-        .image-right {
-            float: right;
-            width: 100px;
-            height: 100px;
-            margin-left: 15px;
-            border-radius: 10px;
-            object-fit: cover;
-        }
-
-        /* Ký tự đặc biệt liên quan đến Tết */
-        .decorative {
-            font-size: 1.5rem;
-            color: #f39c12; /* Màu vàng cam */
-            margin-right: 10px;
-        }
-
-        /* Clear float để tránh lỗi layout */
+        /* Clear float */
         .clearfix {
             clear: both;
         }
-
     </style>
 </head>
 <body>
 
-    <!-- Tiêu đề chạy ngang -->
+    <!-- Thanh tiêu đề chạy ngang -->
     <div class="marquee-container">
         <div class="marquee-text">✨ Chào Mừng Tết Nguyên Đán 2025 - Chúc Mừng Năm Mới 🎉</div>
     </div>
 
+    <!-- Nội dung trang web -->
     <div class="content">
-        <h1>Chào Mừng Tết Nguyên Đán!</h1>
-        <p>Chúc bạn và gia đình một năm mới an khang, thịnh vượng, tràn đầy hạnh phúc! 🌸🎇</p>
+        <!-- Đoạn văn mặc định -->
+        <p>Chúc bạn và gia đình một năm mới tràn đầy hạnh phúc và thành công! 🌟</p>
 
-        <!-- Đoạn văn P1 với hình bên trái -->
-        <p class="clearfix">
+        <!-- Đoạn văn P1 -->
+        <p class="p1 clearfix">
             <img src="https://example.com/hinh-hoa-dao.jpg" alt="Hoa đào" class="image-left">
-            <span class="decorative">🌸</span>
             <strong>Hoa Đào - Biểu Tượng Của Mùa Xuân:</strong>  
-            Tết Nguyên Đán không chỉ là dịp lễ truyền thống mà còn là thời gian để tri ân tổ tiên và đón chào năm mới. Hoa đào nở rộ tượng trưng cho sự may mắn và hạnh phúc.
+            Tết Nguyên Đán là thời điểm hoa đào khoe sắc, mang lại may mắn và niềm vui cho mọi nhà.
         </p>
 
-        <!-- Đoạn văn P2 với hình bên phải -->
-        <p class="clearfix">
+        <!-- Đoạn văn P2 -->
+        <p class="p2 clearfix">
             <img src="https://example.com/hinh-li-xi.jpg" alt="Lì xì" class="image-right">
-            <span class="decorative">💰</span>
             <strong>Tục Lệ Lì Xì - Chúc May Mắn Đầu Năm:</strong>  
-            Tục lệ lì xì mang ý nghĩa chúc phúc, tài lộc và bình an. Những phong bao đỏ tượng trưng cho lời chúc tốt đẹp dành cho nhau trong năm mới.
+            Những phong bao đỏ tượng trưng cho lời chúc phúc, tài lộc và bình an trong năm mới.
         </p>
 
-        <!-- Đoạn văn P3 với hình bên trái -->
-        <p class="clearfix">
+        <!-- Đoạn văn P3 -->
+        <p class="p3 clearfix">
             <img src="https://example.com/hinh-banh-chung.jpg" alt="Bánh chưng" class="image-left">
-            <span class="decorative">🎋</span>
             <strong>Bánh Chưng - Hương Vị Của Tết:</strong>  
-            Bánh chưng xanh, dưa hành và thịt kho tàu là những món ăn không thể thiếu trong ngày Tết, thể hiện sự đoàn viên và truyền thống văn hóa Việt.
+            Món bánh chưng truyền thống, biểu tượng của sự đoàn viên và văn hóa Việt Nam.
         </p>
 
     </div>
