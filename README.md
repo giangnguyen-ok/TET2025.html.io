@@ -15,7 +15,7 @@
         }
 
         .running-text {
-            font-size: 24px;
+            font-size: 40px;
             font-weight: bold;
             color: red;
             animation: runText 10s linear infinite;
@@ -69,7 +69,7 @@
 </head>
 <body>
     <!-- Dòng chữ chạy -->
-    <div class="running-text">Xuân Ất Tỵ - Chúc Mừng Năm Mới!</div>
+    <div class="running-text">XUÂN ẤT TỴ-2025!</div>
 
     <h1>Chào mừng đến với trang web Tết cổ truyền</h1>
 
