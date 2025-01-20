@@ -140,7 +140,7 @@
 
         <!-- Đoạn văn P3 -->
         <p class="p3 clearfix">
-            <img src="https://example.com/hinh-banh-chung.jpg" alt="Bánh chưng" class="image-left">
+            <img src="IMG_4905.jpeg" alt="Bánh chưng" class="image-left">
             <strong>Bánh Chưng - Hương Vị Của Tết:</strong>  
             Món bánh chưng truyền thống, biểu tượng của sự đoàn viên và văn hóa Việt Nam.
         </p>
