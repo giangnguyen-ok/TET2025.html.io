@@ -82,7 +82,24 @@
             background-color: #fff;
             font-size: 1.2rem;
         }
+        
+/* Màu sắc cho P1 */
+        .p1 {
+            background-color: #ffe5e5; /* Nền hồng nhạt */
+            color: #c0392b; /* Chữ đỏ đậm */
+        }
+        
+        /* Màu sắc cho P2 */
+        .p2 {
+            background-color: #e5f7ff; /* Nền xanh nhạt */
+            color: #2980b9; /* Chữ xanh đậm */
+        }
 
+        /* Màu sắc cho P3 */
+        .p3 {
+            background-color: #e5ffe5; /* Nền xanh lá nhạt */
+            color: #27ae60; /* Chữ xanh lá đậm */
+        
         /* Hình ảnh bên trái */
         .image-left {
             float: left;
