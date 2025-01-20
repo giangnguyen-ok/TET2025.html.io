@@ -126,16 +126,16 @@
 
         <!-- Đoạn văn P1 -->
         <p class="p1 clearfix">
-            <img src="https://example.com/hinh-hoa-dao.jpg" alt="Hoa đào" class="image-left">
-            <strong>Hoa Đào - Biểu Tượng Của Mùa Xuân:</strong>  
-            Tết Nguyên Đán là thời điểm hoa đào khoe sắc, mang lại may mắn và niềm vui cho mọi nhà.
+            <img src="IMG_4910.jpeg" alt="Hoa đào" class="image-left">
+            <strong>Đào Mai - Biểu Tượng Của Mùa Xuân:</strong>  
+            Không ngạt ngào hương thơm nhưng chẳng biết từ bao giờ hoa Đào, hoa Mai đã trở thành biểu tượng của mùa xuân, mang đến niềm tin yêu cuộc sống và hy vọng may mắn, an lành đến mỗi gia đình Việt trong những ngày Tết đến xuân về...
         </p>
 
         <!-- Đoạn văn P2 -->
         <p class="p2 clearfix">
-            <img src="https://example.com/hinh-li-xi.jpg" alt="Lì xì" class="image-right">
-            <strong>Tục Lệ Lì Xì - Chúc May Mắn Đầu Năm:</strong>  
-            Những phong bao đỏ tượng trưng cho lời chúc phúc, tài lộc và bình an trong năm mới.
+            <img src="IMG_4909.jpeg" alt="Lì xì" class="image-right">
+            <strong>Mừng Tuổi Đầu Năm- Chúc May Mắn Đầu Năm:</strong> 
+            Lì xì đầu năm mới là một trong những phong tục đẹp của hầu hết các quốc gia phương Đông, bao gồm cả Việt Nam, thường diễn ra trong ngày mồng 1 tháng Giêng hàng năm (có thể kéo dài đến mùng 9, mùng 10 tùy nơi). Qua đó, người nhận thể hiện mong muốn cầu chúc những điều may mắn và tốt đẹp nhất đến người nhận phong bao. Những phong bao đỏ tượng trưng cho lời chúc phúc, tài lộc và bình an trong năm mới.
         </p>
 
         <!-- Đoạn văn P3 -->
