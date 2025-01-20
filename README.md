@@ -6,6 +6,9 @@
     <title>Chào Mừng Tết Nguyên Đán</title>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <style>
+        h1 {
+            display: none;
+            }
         /* Định dạng toàn bộ trang */
         body {
             font-family: 'Arial', sans-serif;
