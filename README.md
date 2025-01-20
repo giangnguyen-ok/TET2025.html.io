@@ -143,8 +143,12 @@
             <img src="IMG_4905.jpeg" alt="Bánh chưng" class="image-left">
             <strong>Bánh Chưng - Hương Vị Của Tết:</strong>  
             Món bánh chưng truyền thống, biểu tượng của sự đoàn viên và văn hóa Việt Nam.
-        </p>
-
+      <div class="audio-player">
+        <p>🎶 Nghe nhạc Tết: <strong>Xuân Đã Về</strong></p>
+        <audio autoplay loop controls>
+            <source src="https://example.com/xuan-da-ve.mp3" type="audio/mpeg">
+            Trình duyệt của bạn không hỗ trợ thẻ audio.
+        </audio>
     </div>
 
 </body>
