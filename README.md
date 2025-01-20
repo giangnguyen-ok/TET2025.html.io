@@ -144,9 +144,7 @@
             <strong>Bánh Chưng - Hương Vị Của Tết:</strong>  
             Món bánh chưng truyền thống, biểu tượng của sự đoàn viên và văn hóa Việt Nam.
       <div class="audio-player">
-        <p>🎶 Nghe nhạc Tết: <strong>Xuân Đã Về</strong></p>
         <audio autoplay loop controls>
             <source src="y2mate.com - Ngày Xuân Long Phụng Xum Vầy Ngô Kiến Huy Khổng Tú Quỳnh Nhiều Ca Si 2013.mp3" type="audio/mpeg">
             Trình duyệt của bạn không hỗ trợ thẻ audio.
-        </audio>
     </div>
