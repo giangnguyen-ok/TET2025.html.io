@@ -1,4 +1,3 @@
-
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +7,7 @@
     <style>
         h1 {
             display: none;
-            }
+        }
         /* Toàn bộ trang */
         body {
             font-family: 'Arial', sans-serif;
@@ -110,6 +109,14 @@
         .clearfix {
             clear: both;
         }
+
+        /* Căn giữa đoạn văn mặc định */
+        .center-text {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #f39c12;
+        }
     </style>
 </head>
 <body>
@@ -121,8 +128,8 @@
 
     <!-- Nội dung trang web -->
     <div class="content">
-        <!-- Đoạn văn mặc định -->
-        <p>Chúc bạn và gia đình một năm mới tràn đầy hạnh phúc và thành công! 🌟</p>
+        <!-- Đoạn văn mặc định căn giữa -->
+        <p class="center-text">Chúc bạn và gia đình một năm mới tràn đầy hạnh phúc và thành công! 🌟</p>
 
         <!-- Đoạn văn P1 -->
         <p class="p1 clearfix">
@@ -143,9 +150,13 @@
             <img src="IMG_4905.jpeg" alt="Bánh chưng" class="image-left">
             <strong>Bánh Chưng - Hương Vị Của Tết:</strong>  
             Món bánh chưng truyền thống, biểu tượng của sự đoàn viên và văn hóa Việt Nam.
-      <div class="audio-player">
-        <audio autoplay loop controls>
-            <source src="Nhạc Xổ số Kiến thiết miền Bắc Bản kinh điển - KHÔNG QUẢNG CÁO.mp3" type="audio/mpeg">
+        </p>
 
-  
+        <div class="audio-player">
+            <audio autoplay loop controls>
+                <source src="Nhạc Xổ số Kiến thiết miền Bắc Bản kinh điển - KHÔNG QUẢNG CÁO.mp3" type="audio/mpeg">
+            </audio>
+        </div>
     </div>
+</body>
+</html>
